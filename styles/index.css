@@ -41,8 +41,8 @@
     }
     .footer{
         height: 15vh;
-        bottom: 0;
-        position: fixed;
+        margin-bottom: 0%;
+        position: absolute;
         width: 100%;
     }
     .about{
