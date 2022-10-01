@@ -1,0 +1,274 @@
+@media screen and (min-width:900px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0.2, 0.6);
+        background: url('./geometric-1732847.jpg');
+        background-size: cover;
+        height: 70vh;
+        width: 99vw;
+    }
+    
+    .navbar{
+        font-weight: 600;
+        font-size: x-large;
+        height: 12vh;
+        justify-content: center;
+        list-style-type: none;
+        position: sticky;
+    }
+    .nav-item :hover{
+        color: rgb(231, 172, 9);
+    }
+    .title{
+        font-weight: 700;
+        margin-top: 2%;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        height: 15vh;
+        color: rgb(231, 172, 9);
+    }
+    
+    .typing{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(231, 172, 9);
+        text-align: center;
+        margin-top: 10%;
+        
+    }
+    
+    .footer li{
+        margin-left: 1%;
+    }
+    .footer{
+        height: 15vh;
+        bottom: 0;
+    }
+    .about{
+        height: 38vh;
+        width: 40vw;
+        border: rgb(2, 2, 2);
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgba(15, 12, 12, 0.6);
+        color: #fff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: larger;
+        margin: 5%;
+    }
+    .contactme{
+        height: 50vh;
+        width: 35vw;
+        color: #fff;
+        margin: 5%;
+    }
+    .abtpage{
+        display: flex;
+    }
+    
+    /**************************************************services page*********************************************************************/
+    
+    .html img{
+        background-color: rgb(41, 204, 182);
+        border-radius: 33px;
+        margin: 4%;
+    }
+    .html{
+        margin-top: 1%;
+        height: 30vh;
+        background-color: rgba(0, 0, 0.2, 0.6);
+        width: 50vw;
+        border-radius: 10px;
+        display: flex;
+    }
+    .css img{
+        background-color: rgb(184, 67, 168);
+        border-radius: 33px;
+        margin: 4%; 
+    }
+    .css{
+        height: 30vh;
+        margin: 2%;
+        background-color: rgba(0, 0, 0.2, 0.6);
+        width: 50vw;
+        border-radius: 10px;
+        display: flex;
+    }
+    .js img{
+        background-color: rgb(63, 184, 103);
+        border-radius: 33px;
+        margin: 4%;
+    }
+    .js{
+        height: 30vh;
+        margin: 2%;
+        background-color: rgba(0, 0, 0.2, 0.6);
+        width: 50vw;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 37%;
+    }
+    .python img{
+        background-color: rgb(160, 63, 184);
+        border-radius: 33px;
+        margin: 4%;
+    }
+    .python{
+        height: 30vh;
+        margin: 2%;
+        background-color: rgba(0, 0, 0.2, 0.6);
+        width: 50vw;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 10%;
+    }
+    .django img{
+        background-color: rgb(63, 184, 103);
+        border-radius: 33px;
+        margin: 4%;
+    }
+    .django{
+        height: 30vh;
+        margin: 2%;
+        background-color: rgba(0, 0, 0.2, 0.6);
+        width: 50vw;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 45%;
+    }
+    .flask img{
+        background-color: rgb(63, 184, 103);
+        border-radius: 33px;
+        margin: 4%;
+    }
+    .flask{
+        height: 30vh;
+        margin: 2%;
+        background-color: rgba(0, 0, 0.2, 0.6);
+        width: 50vw;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 25%;
+    }
+    .services p{
+        margin-top: 10%;
+    }
+    .services{
+        color: #fff;
+    }
+}
+
+
+/**************************************MOBILE DEVICES**************************************/
+
+@media screen and (max-width:800px){
+       body{
+           font-family: Arial, Helvetica, sans-serif;
+           background-color: rgba(8, 57, 77, 0.6);
+           font-size: medium;
+       } 
+       .navbar{
+           list-style-type: none;
+           width: 100vw;
+           color: rgb(231, 172, 9);
+       }
+       nav{
+           position: fixed;
+           top: 0;
+       }
+       .title{
+           margin: 15%;
+           color: rgb(231, 172, 9);
+       }
+       .typing{
+           margin: 10%;
+           color: #fff;
+       }
+       .services{
+           color: #fff;
+       }
+       .html{
+            margin-top: 1%;
+            height: 28vh;
+            background-color: rgba(0, 0, 0.2, 0.6);
+            width: 70vw;
+            border-radius: 10px;
+            display: flex;
+       }
+       .css{
+           margin-top: 1%;
+           height: 28vh;
+           background-color: rgba(0, 0, 0.2, 0.6);
+           width: 65vw;
+           border-radius: 10px;
+           display: flex;
+           margin-left: 2%;
+       }
+       .js{
+           margin-top: 1%;
+           height: 35vh;
+           background-color: rgba(0, 0, 0.2, 0.6);
+           width: 70vw;
+           border-radius: 10px;
+           display: flex;
+           margin-left: 10% ;
+       }
+       .python{
+           margin-top: 1%;
+           height: 35vh;
+           background-color: rgba(0, 0, 0.2, 0.6);
+           width: 75vw;
+           border-radius: 10px;
+           display: flex;
+           margin-left: 2%;
+       }
+       .django{
+           margin-top: 1%;
+           height: 38vh;
+           background-color: rgba(0, 0, 0.2, 0.6);
+           width: 75vw;
+           border-radius: 10px;
+           display: flex;
+           margin-left: 10%;
+       }
+       .flask{
+           margin-top: 1%;
+           height: 45vh;
+           background-color: rgba(0, 0, 0.2, 0.6);
+           width: 80vw;
+           border-radius: 10px;
+           display: flex;
+           margin-left: 2%;
+       }
+       .services img{
+           margin: 5%;
+           border-radius: 10px;
+       }
+       .footer{
+           height: 12vh;
+           bottom: 0;
+           position: fixed;
+           width: 100vw;
+       }
+       footer li{
+           margin-top: 10%;
+           margin: 1%;
+       }
+       .about{
+           height: 45vh;
+           width: 80vw;
+           border: rgb(2, 2, 2);
+           border-radius: 10px;
+           text-align: center;
+           background-color: rgba(15, 12, 12, 0.6);
+           color: #fff;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           font-size: larger;
+           margin: 5%;
+       }
+       .contactme{
+           height: 60vh;
+           width: 70vw;
+           color: #fff;
+           margin: 5%;
+       }
+}
