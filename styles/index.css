@@ -42,7 +42,6 @@
     .footer{
         height: 15vh;
         bottom: 0;
-        position:fixed;
     }
     .about{
         height: 38vh;
@@ -189,7 +188,7 @@
        }
        .html{
             margin-top: 1%;
-            height: 28vh;
+            height: 35vh;
             background-color: rgba(0, 0, 0.2, 0.6);
             width: 70vw;
             border-radius: 10px;
@@ -197,7 +196,7 @@
        }
        .css{
            margin-top: 1%;
-           height: 28vh;
+           height: 35vh;
            background-color: rgba(0, 0, 0.2, 0.6);
            width: 65vw;
            border-radius: 10px;
@@ -206,7 +205,7 @@
        }
        .js{
            margin-top: 1%;
-           height: 35vh;
+           height: 42vh;
            background-color: rgba(0, 0, 0.2, 0.6);
            width: 70vw;
            border-radius: 10px;
@@ -215,27 +214,27 @@
        }
        .python{
            margin-top: 1%;
-           height: 35vh;
+           height: 40vh;
            background-color: rgba(0, 0, 0.2, 0.6);
-           width: 75vw;
+           width: 83vw;
            border-radius: 10px;
            display: flex;
            margin-left: 2%;
        }
        .django{
            margin-top: 1%;
-           height: 38vh;
+           height: 45vh;
            background-color: rgba(0, 0, 0.2, 0.6);
-           width: 75vw;
+           width: 80vw;
            border-radius: 10px;
            display: flex;
            margin-left: 10%;
        }
        .flask{
            margin-top: 1%;
-           height: 45vh;
+           height: 50vh;
            background-color: rgba(0, 0, 0.2, 0.6);
-           width: 80vw;
+           width: 85vw;
            border-radius: 10px;
            display: flex;
            margin-left: 2%;
@@ -255,7 +254,7 @@
            margin: 1%;
        }
        .about{
-           height: 45vh;
+           height: 50vh;
            width: 80vw;
            border: rgb(2, 2, 2);
            border-radius: 10px;
@@ -263,7 +262,7 @@
            background-color: rgba(15, 12, 12, 0.6);
            color: #fff;
            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-           font-size: larger;
+           font-size: large;
            margin: 5%;
        }
        .contactme{
