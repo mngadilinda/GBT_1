@@ -13,6 +13,7 @@
     }
     
     .navbar{
+        background-color: rgba(46, 25, 25, 0.3);
         font-weight: 600;
         font-size: x-large;
         height: 12vh;
@@ -49,7 +50,7 @@
         height: 13vh;
         width: 100%;
         bottom:0;
-        background-color: rgba(46, 25, 25, 0.3)
+        background-color: rgba(46, 25, 25, 0.3);
     }
     .about{
         height: 38vh;
